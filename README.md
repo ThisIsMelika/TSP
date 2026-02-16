@@ -56,7 +56,7 @@ MVC (Most Constrained Value)
 Value ordering heuristic combined with backtracking
 
 
-Heuristic & Metaheuristic Algorithms (Approximate & much faster)
+##Heuristic & Metaheuristic Algorithms (Approximate & much faster)
 
 Hill Climbing
 Simple 2-city swap neighborhood
@@ -91,19 +91,19 @@ Bar chart: Tour Distance Comparison
 Bar chart: Runtime (linear scale)
 Bar chart: Runtime (log scale)
 
-How to Run
+##How to Run
 
 Install dependencies (if needed):Bashpip install jupyter matplotlib
 Start Jupyter Notebook:Bashjupyter notebook tsp_project.ipynb
 Run all cells in order.
 
-Key Observations
+##Key Observations
 
 Exact methods → only practical for very small instances (≈ 10–12 cities)
 Metaheuristics → near-optimal solutions in seconds even for 20–50 cities
 Dynamic Genetic Algorithm usually offers the best quality–speed trade-off
 
-Future Work Ideas
+##Future Work Ideas
 
 Local search improvements: 2-opt, 3-opt, Lin–Kernighan heuristic
 Automatic hyperparameter optimization (e.g. grid search, Bayesian opt)
